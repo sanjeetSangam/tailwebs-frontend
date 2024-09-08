@@ -1,8 +1,37 @@
-# React + Vite
+# Teacher Portal Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This repository contains the frontend components for the Teacher Portal project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology Stack
+
+-   **Node.js**: JavaScript runtime for connecting the server.
+
+## Setup
+
+### Prerequisites
+
+-   Node.js and npm installed.
+-   MongoDB set up and running.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/sanjeetSangam/tailwebs-frontend.git
+    cd tailwebs-frontend
+    ```
+
+2. Make sure you have .env with the following:
+
+    ```bash
+    VITE_API_URL=http://localhost:2000/auth/v1
+    ```
+
+3. Start the server:
+    ```bash
+    yarn install
+    yarn dev
+    ```
